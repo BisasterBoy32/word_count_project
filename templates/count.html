@@ -1,0 +1,11 @@
+<h1> you have  {{ wordslen }} words in your text </h1>
+<h1> you entered this text : </h1>
+{{ output }}
+
+<h1>all the words exist are : </h1>
+{% for x,y in words %}
+<h4>
+{{ x }} : {{ y }}
+</h4>
+
+{% endfor %}
